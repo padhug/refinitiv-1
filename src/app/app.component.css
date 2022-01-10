@@ -1,0 +1,21 @@
+#app {
+display: flex;
+min-height: 100%;
+}
+
+#inputColumn {
+  flex: 0 0 200px;
+  min-height: 100%;
+}
+
+#calcColumn {
+  flex: 1;
+  border-left: 1px solid blue;
+  border-right: 1px solid blue;
+  min-height: 100%;
+}
+
+#resultColumn {
+  flex: 0 0 300px;
+  min-height: 100%;
+}
